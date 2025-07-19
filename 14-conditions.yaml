@@ -10,6 +10,8 @@
     when: NUMBER < 100
 
   - name: print if the nubmer is greater than 100
+    vars:
+      NUMBER: 120
     ansible.builtin.debug:
       msg: "Given number {{ NUMBER }} is greater than 100"
     when: NUMBER > 100
