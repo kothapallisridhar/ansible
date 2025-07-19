@@ -1,4 +1,4 @@
-- name: variables form inventory
+- name: variables from inventory
   hosts: frontend
   tasks:
   - name: print course info
