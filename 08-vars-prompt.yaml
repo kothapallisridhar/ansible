@@ -2,11 +2,11 @@
   hosts: local
   connection: local
   vars_prompt:
-  - name: username
+  - name: USERNAME
     prompt: Please enter your username
     private: true
 
-  - name: password
+  - name: PASSWORD
     prompt: Please enter your password
     private: true
   tasks: 
